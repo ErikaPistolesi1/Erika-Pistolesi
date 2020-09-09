@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?-->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt xml:id="title">
+				<title>Vincenzo Bellini a Giovanni Galeota, in Parigi, 14 febbraio 1834. </title>
+				<!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital Edition
+					<date when="2018-06">July 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding letter</resp>
+					<name xml:id="CZ">Camilla Zucchi</name>
+					<name xml:id="EP">Erika Pistolesi</name>
+				</respStmt>
+			
+			</editionStmt>
+			<publicationStmt>
+				<publisher />
+                </fileDesc>ß
+                </teiHeader>

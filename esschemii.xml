@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--   studente: Erika Pistolesi
+      maricola: 522939
+      corso: codifica di testi 19-20-->
+
+
+
+<!DOCTYPE TEI [
+    <!ELEMENT TEI (header, facsimile?, testo+) >
+    <!ELEMENT header (#PCDATA) "intestazione" >
+    <!ELEMENT facsimile (#PCDATA) >
+    <!ELEMENT testo (#PCDATA|seg)* >
+    <!ELEMENT seg (#PCDATA) >
+
+    <!ATTLIST header type CDATA #FIXED>
+    <!ATTLIST header lang NMTOKEN #IMPLIED>
+    <!ATTLIST facsimile source CDATA #REQUIRED>
+    <!ATTLIST facsimile ref IDREFS #IMPLIED>
+    <!ATTLIST testo id ID #REQUIRED>
+    <!ATTLIST testo type CDATA #IMPLIED>
+
+]>
+
+<TEI>
+    <header type="intestazione">
+      
+    </header>
+
+    <facsimile source="risorsa">
+    
+    </facsimile>
+    
+    <testo id="testo">
+    
+    </testo>
+</TEI>
+
+
